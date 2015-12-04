@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee      http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <description>grooptroop</description>
+    <display-name>grooptroop</display-name>
+    
+    <env-entry-description>database driver parameters</env-entry-description>
+    <env-entry>
+        <env-entry-name>DriverClassName</env-entry-name>
+        <env-entry-value>com.mysql.jdbc.Driver</env-entry-value>
+        <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+    <env-entry>
+        <env-entry-name>Url</env-entry-name>
+        <env-entry-value>jdbc:mysql://us-cdbr-azure-southcentral-e.cloudapp.net:3306</env-entry-value>
+        <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+    <env-entry>
+        <env-entry-name>UserId</env-entry-name>
+        <env-entry-value>bc1432017d5db7</env-entry-value>
+        <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+    <env-entry>
+        <env-entry-name>Password</env-entry-name>
+        <env-entry-value>f1585ef9</env-entry-value>
+        <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+    
+</web-app>
